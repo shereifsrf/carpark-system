@@ -11,19 +11,31 @@ services:
       - 9000:9000
     depends_on:
       - cpm-postgres
+    networks:
+      - cpm-web
+      - cpm-backend
 
   cpm-postgres:
     container_name: cpm-postgres
     image: postgres
     restart: always
     ports:
-      - 5432:5432
+      - :5432
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
       POSTGRES_DB: ${POSTGRES_DB}
     volumes:
       - postgresVolume:/var/lib/postgresql/data
+    networks:
+      - cpm-backend
 
 volumes:
   postgresVolume:
+
+
+networks:
+  cpm-web:
+    name: cpm-web
+  cpm-backend:
+    name: cpm-backend
