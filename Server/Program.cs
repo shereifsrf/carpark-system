@@ -4,6 +4,9 @@ using Server.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// db conn string from env
+
+
 
 builder.Services.AddDbContext<CpmDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("CPMDatabase")));
