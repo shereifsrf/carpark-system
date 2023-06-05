@@ -1,0 +1,56 @@
+﻿@page "/park"
+@inject IParkService ParkService
+
+<PageTitle>Park</PageTitle>
+
+@* number plate input field *@
+@* submit button *@
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="numberPlate" >Number Plate</label>
+            <input @bind="numberPlate" type="text" class="form-control" id="numberPlate" placeholder="Enter number plate">
+        </div>
+    </div>
+    @* show status *@
+    <div class="col-md-12 mt-2">
+        @* red color *@
+        <p class="@statusColor">@status</p>
+    </div>
+    <div class="col-md-12 mt-2">
+        <button @onclick="park" type="submit" class="btn btn-primary">Submit</button>
+    </div>
+</div>
+
+@code {
+    private string? numberPlate;
+    private string? status;
+    private string statusColor = "text-danger";
+    
+    private async void park()
+    {
+        // call parking service park method
+        if (numberPlate == null)
+        {
+            status = "Please enter a number plate";
+            return;
+        }
+
+        var response = await ParkService.Park(numberPlate);
+        if (string.IsNullOrEmpty(response))
+        {
+            status = "Car parking entry is success";
+            statusColor = "text-success";
+        }
+        else
+        {
+            status = response;
+            statusColor = "text-danger";
+        }
+
+        // change status from ui
+        StateHasChanged();
+    }
+
+}

@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{5FA16191-1E76-429A-A387-522B242B0A82}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Client/Pages/FetchData.razor">
+    <Files>
+      <File FileName="Client/Pages/Index.razor" />
+      <File FileName="Server/Program.cs" />
+      <File FileName="Client/Pages/FetchData.razor" Line="45" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CPM" expanded="True">
+            <Node name="CPM.Client" expanded="True">
+              <Node name="Pages" expanded="True">
+                <Node name="FetchData.razor" selected="True" />
+              </Node>
+            </Node>
+            <Node name="CPM.Server" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+            <Node name="CPM.Shared" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.CPM.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>

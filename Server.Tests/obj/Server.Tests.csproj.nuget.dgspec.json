@@ -1,0 +1,303 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/Server.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj",
+        "projectName": "CPM.Client",
+        "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj",
+        "packagesPath": "/Users/mohammedshereif/.nuget/packages/",
+        "outputPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohammedshereif/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj": {
+                "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[7.0.5, 7.0.5]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/Server.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/Server.Tests.csproj",
+        "projectName": "Server.Tests",
+        "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/Server.Tests.csproj",
+        "packagesPath": "/Users/mohammedshereif/.nuget/packages/",
+        "outputPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohammedshereif/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj": {
+                "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.5.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj",
+        "projectName": "CPM.Server",
+        "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj",
+        "packagesPath": "/Users/mohammedshereif/.nuget/packages/",
+        "outputPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohammedshereif/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj": {
+                "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj"
+              },
+              "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj": {
+                "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj",
+        "projectName": "CPM.Shared",
+        "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj",
+        "packagesPath": "/Users/mohammedshereif/.nuget/packages/",
+        "outputPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mohammedshereif/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/bin/Debug/net7.0/wwwroot/_framework/blazor.webassembly.js",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/obj/Debug/net7.0/build-gz/nFFzy0fd.gz",
+      "PackagePath": "staticwebassets/_framework/blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/obj/Debug/net7.0/scopedcss/bundle/CPM.Client.styles.css",
+      "PackagePath": "staticwebassets/CPM.Client.styles.css"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/app.css",
+      "PackagePath": "staticwebassets/css/app.css"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/FONT-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/ICON-LICENSE",
+      "PackagePath": "staticwebassets/css/open-iconic"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/README.md",
+      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
+      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/icon-192.png",
+      "PackagePath": "staticwebassets/icon-192.png"
+    },
+    {
+      "Id": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/wwwroot/index.html",
+      "PackagePath": "staticwebassets/index.html"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.CPM.Client.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.CPM.Client.props",
+      "PackagePath": "build\\CPM.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.CPM.Client.props",
+      "PackagePath": "buildMultiTargeting\\CPM.Client.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.CPM.Client.props",
+      "PackagePath": "buildTransitive\\CPM.Client.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

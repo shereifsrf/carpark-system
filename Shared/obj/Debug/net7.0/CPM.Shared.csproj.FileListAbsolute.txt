@@ -1,0 +1,12 @@
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/bin/Debug/net7.0/CPM.Shared.deps.json
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/bin/Debug/net7.0/CPM.Shared.dll
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/bin/Debug/net7.0/CPM.Shared.pdb
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.csproj.AssemblyReference.cache
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.AssemblyInfoInputs.cache
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.AssemblyInfo.cs
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.csproj.CoreCompileInputs.cache
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.dll
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/refint/CPM.Shared.dll
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.pdb
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/ref/CPM.Shared.dll
