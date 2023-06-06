@@ -8,12 +8,11 @@ namespace Server.Services;
 
 public interface IEntryService
 {
-    // Task<IEnumerable<Entry>> GetEntriesAsync();
-    // Task<Entry?> GetEntryAsync(int id);
-    // Task DeleteEntryAsync(int id);
     Task<Entry> UpdateEntryAsync(Entry entry);
     Task<Entry> AddEntryAsync(Entry entry);
     Task<Entry?> GetEntryByNumberPlateAsync(string numberPlate);
+    Task<decimal> TotalAmount(DateTime from, DateTime to);
+    Task<int> TotalParked(DateTime from, DateTime to);
     decimal CalculateAmount(DateTime from, DateTime to);
 }
 
@@ -27,27 +26,28 @@ public class EntryService : IEntryService
         _context = context;
     }
 
-    // public async Task<IEnumerable<Entry>> GetEntriesAsync()
-    // {
-    //     return await _context.Entries.ToListAsync();
-    // }
+    public async Task<decimal> TotalAmount(DateTime from, DateTime to)
+    {
+        // get the list of entries between from and to
+        var entries = await _context.Entries.Where(e => e.From >= from && e.To <= to).ToListAsync();
 
-    // public async Task<Entry?> GetEntryAsync(int id)
-    // {
-    //     var entry = await _context.Entries.FindAsync(id);
-    //     if (entry == null) return null;
-    //     return entry;
-    // }
+        // calculate the total amount
+        decimal totalAmount = 0;
+        // run parallel for loop
+        Parallel.ForEach(entries, entry =>
+        {
+            var amount = CalculateAmount(entry.From, entry.To);
+            totalAmount += amount;
+        });
 
-    // public async Task DeleteEntryAsync(int id)
-    // {
-    //     var entry = await _context.Entries.FindAsync(id);
-    //     if (entry == null) return;
+        return totalAmount;
+    }
 
-    //     entry.Deleted = DateTime.Now;
-    //     _context.Entry(entry).State = EntityState.Modified;
-    //     await _context.SaveChangesAsync();
-    // }
+    public async Task<int> TotalParked(DateTime from, DateTime to)
+    {
+        // get the list of entries between from and to
+        return await _context.Entries.CountAsync(e => e.From >= from && e.To <= to);
+    }
 
     public async Task<Entry> UpdateEntryAsync(Entry entry)
     {
@@ -188,5 +188,6 @@ public class EntryService : IEntryService
 
         return totalAmount;
     }
+
 }
 

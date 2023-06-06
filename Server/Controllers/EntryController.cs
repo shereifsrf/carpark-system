@@ -101,4 +101,18 @@ public class EntryController : ControllerBase
         await _entryService.UpdateEntryAsync(entry);
         return Ok(entry);
     }
+
+    [HttpGet("total-amount")]
+    public async Task<ActionResult<decimal>> TotalAmount([FromQuery] DateTime from, [FromQuery] DateTime to)
+    {
+        var totalAmount = await _entryService.TotalAmount(from, to);
+        return Ok(totalAmount);
+    }
+
+    [HttpGet("total-parked")]
+    public async Task<ActionResult<int>> TotalParked([FromQuery] DateTime from, [FromQuery] DateTime to)
+    {
+        var totalParked = await _entryService.TotalParked(from, to);
+        return Ok(totalParked);
+    }
 }

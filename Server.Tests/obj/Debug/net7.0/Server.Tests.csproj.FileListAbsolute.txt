@@ -138,3 +138,6 @@
 /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/bin/Debug/net7.0/Castle.Core.dll
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/bin/Debug/net7.0/Moq.dll
+/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server.Tests/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll

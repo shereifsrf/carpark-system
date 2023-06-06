@@ -1,0 +1,104 @@
+﻿@page "/find-total"
+@inject IParkService ParkService
+
+<PageTitle>Find Total</PageTitle>
+
+<div class="row">
+    @* date from and to *@
+    <h1>Total Earning</h1>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="dateFrom">Date From</label>
+            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="eDateFrom">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="dateFrom">Date To</label>
+            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="eDateTo">
+        </div>
+    </div>
+    @* show status *@
+    <div class="col-md-12 mt-2">
+        @* red color *@
+        <p class="@eStatusColor">@eStatus</p>
+    </div>
+
+    <div class="col-md-12 mt-2">
+        <button type="submit" class="btn btn-primary" @onclick="GetTotalEarning">Submit</button>
+    </div>
+
+    <h1 class="mt-5">Total Parked</h1>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="dateFrom">Date From</label>
+            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="pDateFrom">
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="form-group">
+            <label for="dateFrom">Date To</label>
+            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="pDateTo">
+        </div>
+    </div>
+    @* show status *@
+    <div class="col-md-12 mt-2">
+        @* red color *@
+        <p class="@pStatusColor">@pStatus</p>
+    </div>
+
+    <div class="col-md-12 mt-2">
+        <button type="submit" class="btn btn-primary" @onclick="GetTotalParked">Submit</button>
+    </div>
+
+</div>
+
+@code { 
+
+    private DateTime eDateFrom;
+    private DateTime eDateTo;
+    private string? eStatus;
+    private string eStatusColor = "text-danger";
+
+    private DateTime pDateFrom;
+    private DateTime pDateTo;
+    private string? pStatus;
+    private string pStatusColor = "text-danger";
+
+    private async Task GetTotalEarning()
+    {
+        var (response, error) = await ParkService.GetTotalEarning(eDateFrom, eDateTo);
+        if (response != null)
+        {
+            eStatus = response.ToString();
+            eStatusColor = "text-success";
+        }
+        else
+        {
+            eStatus = error?.Message;
+            eStatusColor = "text-danger";
+        }
+
+        // change status from ui
+        StateHasChanged();
+    }
+
+    private async Task GetTotalParked()
+    {
+        var (response, error) = await ParkService.GetTotalParked(pDateFrom, pDateTo);
+        if (response != null)
+        {
+            pStatus = response.ToString();
+            pStatusColor = "text-success";
+        }
+        else
+        {
+            pStatus = error?.Message;
+            pStatusColor = "text-danger";
+        }
+
+        // change status from ui
+        StateHasChanged();
+    }
+
+} 

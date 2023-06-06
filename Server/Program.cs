@@ -1,3 +1,4 @@
+using CPM.Server.Configs;
 using Microsoft.EntityFrameworkCore;
 using Server.Data;
 using Server.Services;
@@ -6,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // db conn string from env
 
-
+builder.Services.Configure<DefaultConfigurations>(
+    builder.Configuration.GetSection("DefaultConfigurations"));
 
 builder.Services.AddDbContext<CpmDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("CPMDatabase")));
