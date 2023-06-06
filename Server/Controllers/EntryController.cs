@@ -97,6 +97,7 @@ public class EntryController : ControllerBase
             return BadRequest(ErrorStatusDTO.NumberPlateNotParked);
 
         entry.Status = StatusEnum.Completed;
+        entry.To = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Utc);
         entry.Amount = _entryService.CalculateAmount(entry.From, entry.To);
         await _entryService.UpdateEntryAsync(entry);
         return Ok(entry);
@@ -105,6 +106,8 @@ public class EntryController : ControllerBase
     [HttpGet("total-amount")]
     public async Task<ActionResult<decimal>> TotalAmount([FromQuery] DateTime from, [FromQuery] DateTime to)
     {
+        from = DateTime.SpecifyKind(from, DateTimeKind.Utc);
+        to = DateTime.SpecifyKind(to, DateTimeKind.Utc);
         var totalAmount = await _entryService.TotalAmount(from, to);
         return Ok(totalAmount);
     }
@@ -112,6 +115,8 @@ public class EntryController : ControllerBase
     [HttpGet("total-parked")]
     public async Task<ActionResult<int>> TotalParked([FromQuery] DateTime from, [FromQuery] DateTime to)
     {
+        from = DateTime.SpecifyKind(from, DateTimeKind.Utc);
+        to = DateTime.SpecifyKind(to, DateTimeKind.Utc);
         var totalParked = await _entryService.TotalParked(from, to);
         return Ok(totalParked);
     }

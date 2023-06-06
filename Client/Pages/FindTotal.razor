@@ -3,19 +3,20 @@
 
 <PageTitle>Find Total</PageTitle>
 
+<h1>Total Earning</h1>
 <div class="row">
     @* date from and to *@
-    <h1>Total Earning</h1>
     <div class="col-md-6">
         <div class="form-group">
             <label for="dateFrom">Date From</label>
-            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="eDateFrom">
+            @* date time picker blazor *@
+            <InputDate @bind-Value="eDateFrom" Type="InputDateType.DateTimeLocal" />
         </div>
     </div>
     <div class="col-md-6">
         <div class="form-group">
             <label for="dateFrom">Date To</label>
-            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="eDateTo">
+            <InputDate @bind-Value="eDateTo" Type="InputDateType.DateTimeLocal" />
         </div>
     </div>
     @* show status *@
@@ -32,13 +33,13 @@
     <div class="col-md-6">
         <div class="form-group">
             <label for="dateFrom">Date From</label>
-            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="pDateFrom">
+            <InputDate @bind-Value="pDateFrom" Type="InputDateType.DateTimeLocal" />
         </div>
     </div>
     <div class="col-md-6">
         <div class="form-group">
             <label for="dateFrom">Date To</label>
-            <input type="date" class="form-control" id="dateFrom" placeholder="Date From" @bind-value="pDateTo">
+            <InputDate @bind-Value="pDateTo" Type="InputDateType.DateTimeLocal" />
         </div>
     </div>
     @* show status *@
@@ -64,6 +65,15 @@
     private DateTime pDateTo;
     private string? pStatus;
     private string pStatusColor = "text-danger";
+    
+    // initalize dates with current date
+    protected override void OnInitialized()
+    {
+        eDateFrom = DateTime.Now;
+        eDateTo = DateTime.Now;
+        pDateFrom = DateTime.Now;
+        pDateTo = DateTime.Now;
+    }
 
     private async Task GetTotalEarning()
     {

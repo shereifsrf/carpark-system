@@ -52,7 +52,6 @@ public class EntryService : IEntryService
     public async Task<Entry> UpdateEntryAsync(Entry entry)
     {
         entry.Updated = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Utc);
-        entry.To = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Utc);
         _context.Entry(entry).State = EntityState.Modified;
         await _context.SaveChangesAsync();
         return entry;
@@ -71,7 +70,7 @@ public class EntryService : IEntryService
     public Task<Entry?> GetEntryByNumberPlateAsync(string numberPlate)
     {
         return _context.Entries.OrderByDescending(x => x.Created)
-            .FirstOrDefaultAsync(e => e.NumberPlate == numberPlate && e.Status == StatusEnum.Parked);
+        .FirstOrDefaultAsync(e => e.NumberPlate == numberPlate && e.Status == StatusEnum.Parked);
     }
 
 
@@ -189,5 +188,10 @@ public class EntryService : IEntryService
         return totalAmount;
     }
 
+    // dispose context
+    public void Dispose()
+    {
+        _context.Dispose();
+    }
 }
 

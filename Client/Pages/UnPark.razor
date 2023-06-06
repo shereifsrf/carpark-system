@@ -27,11 +27,11 @@
                 <p class="card-text">
                     <span>Car Number: @entry.NumberPlate</span>
                     <br />
-                    <span>Date & Time of Entry: @entry.From</span>
+                    <span>Date & Time of Entry: @entry.From.ToString(dateFormat)</span>
                     <br />
-                    <span>Date & Time of Exit : @entry.To</span>
+                    <span>Date & Time of Exit : @entry.To.ToString(dateFormat)</span>
                     <br />
-                    <span> Parking Time: @((entry.To - entry.From).Minutes)</span>
+                    <span> Parking Time: @parkingTime()</span>
                     <br />
                     <span>Total Amount: MR @entry.Amount</span>
                 </p>
@@ -46,6 +46,7 @@
     private string? status;
     private string statusColor = "text-danger";
     private EntryDTO? entry;
+    private string dateFormat = "dd/MM/yy 'at' hh:mm tt";
     
     private async void park()
     {
@@ -72,5 +73,17 @@
         }
         // change status from ui
         StateHasChanged();
+    }
+
+    // parking time in 1.30 where 1 is hour and 30 is minutes
+    private string parkingTime()
+    {
+        if (entry == null)
+            return "";
+            
+        var time = entry.To - entry.From;
+        // total hour and minute, it can be many days but show in hour and minute
+        var hour = time.Hours + (time.Days * 24);
+        return $"{hour}.{time.Minutes}";
     }
 }
