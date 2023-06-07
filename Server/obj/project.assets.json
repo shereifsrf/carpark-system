@@ -1946,36 +1946,38 @@
     ]
   },
   "packageFolders": {
-    "/Users/mohammedshereif/.nuget/packages/": {}
+    "C:\\Users\\moham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj",
+      "projectUniqueName": "D:\\Shared-Mac\\Projects\\carpark-system\\Server\\CPM.Server.csproj",
       "projectName": "CPM.Server",
-      "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/CPM.Server.csproj",
-      "packagesPath": "/Users/mohammedshereif/.nuget/packages/",
-      "outputPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/obj/",
+      "projectPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Server\\CPM.Server.csproj",
+      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+      "outputPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mohammedshereif/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/sdk/7.0.302/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj": {
-              "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj"
+            "D:\\Shared-Mac\\Projects\\carpark-system\\Client\\CPM.Client.csproj": {
+              "projectPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Client\\CPM.Client.csproj"
             },
-            "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj": {
-              "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj"
+            "D:\\Shared-Mac\\Projects\\carpark-system\\Shared\\CPM.Shared.csproj": {
+              "projectPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Shared\\CPM.Shared.csproj"
             }
           }
         }
@@ -2028,7 +2030,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

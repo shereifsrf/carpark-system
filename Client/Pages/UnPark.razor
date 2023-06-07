@@ -13,7 +13,7 @@
         </div>
     </div>
     <div class="col-md-12 mt-2">
-        <button @onclick="park" type="submit" class="btn btn-primary">Submit</button>
+        <button @onclick="unPark" type="submit" class="btn btn-primary">Submit</button>
     </div>
     @* show status *@
     <div class="col-md-12 mt-2">
@@ -48,7 +48,7 @@
     private EntryDTO? entry;
     private string dateFormat = "dd/MM/yy 'at' hh:mm tt";
     
-    private async void park()
+    private async void unPark()
     {
         // call parking service park method
         if (numberPlate == null)

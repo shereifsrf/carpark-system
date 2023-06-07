@@ -1,4 +1,4 @@
-namespace CPM.Client.Utils;
+namespace CPM.Shared.Utils;
 
 public static class Api
 {

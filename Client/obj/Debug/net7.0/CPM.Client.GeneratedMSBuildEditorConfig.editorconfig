@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = CPM.Client
 build_property.RootNamespace = CPM.Client
-build_property.ProjectDir = /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/
+build_property.ProjectDir = D:\Shared-Mac\Projects\carpark-system\Client\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client
+build_property.MSBuildProjectDirectory = D:\Shared-Mac\Projects\carpark-system\Client
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/App.razor]
+[D:/Shared-Mac/Projects/carpark-system/Client/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/Pages/FindTotal.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmluZFRvdGFsLnJhem9y
+[D:/Shared-Mac/Projects/carpark-system/Client/Pages/FindTotal.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmluZFRvdGFsLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/Pages/Park.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUGFyay5yYXpvcg==
+[D:/Shared-Mac/Projects/carpark-system/Client/Pages/Park.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFyay5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/Pages/UnPark.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVW5QYXJrLnJhem9y
+[D:/Shared-Mac/Projects/carpark-system/Client/Pages/UnPark.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVW5QYXJrLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
+[D:/Shared-Mac/Projects/carpark-system/Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/_Imports.razor]
+[D:/Shared-Mac/Projects/carpark-system/Client/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ldu0h5c6gd
+[D:/Shared-Mac/Projects/carpark-system/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-dty9wne4pz
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-a05f6yl4f7
+[D:/Shared-Mac/Projects/carpark-system/Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2qxn7gspi4

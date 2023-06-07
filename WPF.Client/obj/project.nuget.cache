@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "pf+fgzl5uwYoaZkqXgui1IsRYIvxlvMZ5xcH6H/c++eKA4x4AL2Mjap1TzAXm1XivZDYvubXqj0ycxFlVI2neA==",
+  "success": true,
+  "projectFilePath": "D:\\Shared-Mac\\Projects\\carpark-system\\WPF.Client\\WPF.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\moham\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\moham\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

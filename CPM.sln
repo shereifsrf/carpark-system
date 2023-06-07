@@ -10,6 +10,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CPM.Shared", "Shared\CPM.Sh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server.Tests", "Server.Tests\Server.Tests.csproj", "{C40548D4-34A9-4E6C-8C3C-EDCEB978AC90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Client", "WPF.Client\WPF.Client.csproj", "{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,18 @@ Global
 		{C40548D4-34A9-4E6C-8C3C-EDCEB978AC90}.Release|x64.Build.0 = Release|Any CPU
 		{C40548D4-34A9-4E6C-8C3C-EDCEB978AC90}.Release|x86.ActiveCfg = Release|Any CPU
 		{C40548D4-34A9-4E6C-8C3C-EDCEB978AC90}.Release|x86.Build.0 = Release|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Debug|x64.Build.0 = Debug|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Debug|x86.Build.0 = Debug|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Release|x64.ActiveCfg = Release|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Release|x64.Build.0 = Release|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Release|x86.ActiveCfg = Release|Any CPU
+		{CD591133-DB96-4F6F-B7AF-B86A5C8C4400}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

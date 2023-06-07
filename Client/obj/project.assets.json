@@ -1827,32 +1827,34 @@
     ]
   },
   "packageFolders": {
-    "/Users/mohammedshereif/.nuget/packages/": {}
+    "C:\\Users\\moham\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj",
+      "projectUniqueName": "D:\\Shared-Mac\\Projects\\carpark-system\\Client\\CPM.Client.csproj",
       "projectName": "CPM.Client",
-      "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/CPM.Client.csproj",
-      "packagesPath": "/Users/mohammedshereif/.nuget/packages/",
-      "outputPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Client/obj/",
+      "projectPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Client\\CPM.Client.csproj",
+      "packagesPath": "C:\\Users\\moham\\.nuget\\packages\\",
+      "outputPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Client\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/mohammedshereif/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\moham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj": {
-              "projectPath": "/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/CPM.Shared.csproj"
+            "D:\\Shared-Mac\\Projects\\carpark-system\\Shared\\CPM.Shared.csproj": {
+              "projectPath": "D:\\Shared-Mac\\Projects\\carpark-system\\Shared\\CPM.Shared.csproj"
             }
           }
         }
@@ -1899,7 +1901,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

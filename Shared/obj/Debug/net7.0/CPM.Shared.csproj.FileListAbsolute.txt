@@ -10,3 +10,39 @@
 /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/refint/CPM.Shared.dll
 /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/CPM.Shared.pdb
 /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Shared/obj/Debug/net7.0/ref/CPM.Shared.dll
+D:/Shared-Mac/Projects/carpark-system/Shared/bin/Debug/net7.0/CPM.Shared.deps.json
+D:/Shared-Mac/Projects/carpark-system/Shared/bin/Debug/net7.0/CPM.Shared.dll
+D:/Shared-Mac/Projects/carpark-system/Shared/bin/Debug/net7.0/CPM.Shared.pdb
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.csproj.AssemblyReference.cache
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.AssemblyInfoInputs.cache
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.AssemblyInfo.cs
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.csproj.CoreCompileInputs.cache
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.dll
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/refint/CPM.Shared.dll
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.pdb
+D:/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/ref/CPM.Shared.dll
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/bin/Debug/net7.0/CPM.Shared.deps.json
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/bin/Debug/net7.0/CPM.Shared.dll
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/bin/Debug/net7.0/CPM.Shared.pdb
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.csproj.AssemblyReference.cache
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.AssemblyInfoInputs.cache
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.AssemblyInfo.cs
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.csproj.CoreCompileInputs.cache
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.dll
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/refint/CPM.Shared.dll
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/CPM.Shared.pdb
+/Volumes/Shared-Mac/Projects/carpark-system/Shared/obj/Debug/net7.0/ref/CPM.Shared.dll
+D:\Shared-Mac\Projects\carpark-system\Shared\bin\Debug\net7.0\CPM.Shared.deps.json
+D:\Shared-Mac\Projects\carpark-system\Shared\bin\Debug\net7.0\CPM.Shared.dll
+D:\Shared-Mac\Projects\carpark-system\Shared\bin\Debug\net7.0\CPM.Shared.pdb
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.csproj.AssemblyReference.cache
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.AssemblyInfoInputs.cache
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.AssemblyInfo.cs
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.csproj.CoreCompileInputs.cache
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.dll
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\refint\CPM.Shared.dll
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\CPM.Shared.pdb
+D:\Shared-Mac\Projects\carpark-system\Shared\obj\Debug\net7.0\ref\CPM.Shared.dll

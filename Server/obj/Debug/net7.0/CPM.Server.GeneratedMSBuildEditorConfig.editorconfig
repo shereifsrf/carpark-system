@@ -9,13 +9,13 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CPM.Server
 build_property.RootNamespace = CPM.Server
-build_property.ProjectDir = /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/
+build_property.ProjectDir = D:\Shared-Mac\Projects\carpark-system\Server\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server
+build_property.MSBuildProjectDirectory = D:\Shared-Mac\Projects\carpark-system\Server
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/mohammedshereif/Projects/interview/Transcendt Phoenix Solutions/CPM/Server/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[D:/Shared-Mac/Projects/carpark-system/Server/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

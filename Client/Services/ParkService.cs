@@ -1,13 +1,12 @@
 using System.Net.Http.Json;
-using CPM.Client.Utils;
+using CPM.Shared.Utils;
+using CPM.Shared.ClientServices;
 using CPM.Shared.DTO;
 
 namespace CPM.Client.Services;
 
-public interface IParkService
+public interface IParkService: IClientParkService
 {
-    Task<string?> Park(string numberPlate);
-    Task<Tuple<EntryDTO?, ErrorStatusDTO?>> UnPark(string numberPlate);
     Task<Tuple<decimal?, ErrorStatusDTO?>> GetTotalEarning(DateTime from, DateTime to);
     Task<Tuple<int?, ErrorStatusDTO?>> GetTotalParked(DateTime from, DateTime to);
 }
