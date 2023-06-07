@@ -22,12 +22,13 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
         <Label Grid.Row="0" Grid.Column="0" Content="Welcome to CPM" FontSize="20" FontWeight="Bold" Grid.ColumnSpan="2" />
 
         <Label Grid.Row="1" Grid.Column="0" Content="Number Plate" Margin="0,10,0,0" />
-        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding NumberPlate}" Margin="0,10,0,0"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding NumberPlate, UpdateSourceTrigger=PropertyChanged}" Margin="0,10,0,0" />
         
         <StackPanel Grid.Row="2" Grid.Column="1" Orientation="Horizontal">
             <Button Content="Park" Margin="0,10,0,0" Command="{Binding ParkCommand}" />
@@ -38,6 +39,21 @@
             <Label Content="Status:" Margin="0,10,0,0" />
             <Label Content="{Binding Status}" Margin="0,10,0,0" />
         </StackPanel>
+        
+        <Border Grid.Row="4" Grid.Column="1">
+            <TextBlock Text="{Binding Entry}" Margin="0,10,0,0" Padding="10" />
+
+            <Border.Style>
+                <Style TargetType="Border" BasedOn="{StaticResource BorderStyle}">
+                    <Setter Property="Visibility" Value="Visible" />
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Entry}" Value="{x:Null}">
+                            <Setter Property="Visibility" Value="Collapsed" />
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Border.Style>
+        </Border>
 
     </Grid>
 </UserControl>

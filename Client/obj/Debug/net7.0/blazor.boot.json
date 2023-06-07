@@ -198,15 +198,15 @@
       "mscorlib.dll": "sha256-qqpKd+W+AFb6UxudEYEKzrz7ma81p5LrWUwPBVvHV4U=",
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
-      "CPM.Shared.dll": "sha256-wZw3TpONrZufHn2MPLGiKUQjbpCi9IcNmmoP1gdsLlY=",
-      "CPM.Client.dll": "sha256-uw7GkDwGfgCE9JUykYGkysPo3H2vEPPJjX3TiKodX3U="
+      "CPM.Shared.dll": "sha256-neTc1RCjoTYbWCE5S+o9\/3v1E3Wn8GosnOFDlJoS71E=",
+      "CPM.Client.dll": "sha256-ip\/O5dkYutbpFSTi5pjQuRfmA2fDN91GI+nwRTb9OIo="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "CPM.Shared.pdb": "sha256-dvn65MUqQNUjZB8bKCUnVpu4meIVpHip8wHYg1LjZho=",
-      "CPM.Client.pdb": "sha256-xUWktArWuJx\/7L8Vbqfo+3X\/r3oEKI0oYRcynHh+PqQ="
+      "CPM.Shared.pdb": "sha256-wku7CDdHKpyPq8eZEGSCjDIiRo9SwZ1QWKATQb49+9I=",
+      "CPM.Client.pdb": "sha256-2yj3uOLBOOir7bbl5CnNp8d7eD\/O8NFgbFebLhdg\/40="
     },
     "runtime": {
       "dotnet.7.0.5.j5w7drfu8r.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",

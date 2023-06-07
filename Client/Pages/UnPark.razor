@@ -25,15 +25,15 @@
         <div class="card mt-3">
             <div class="card-body">
                 <p class="card-text">
-                    <span>Car Number: @entry.NumberPlate</span>
+                    <span>@entry.NumberPlate</span>
                     <br />
-                    <span>Date & Time of Entry: @entry.From.ToString(dateFormat)</span>
+                    <span>@entry.From</span>
                     <br />
-                    <span>Date & Time of Exit : @entry.To.ToString(dateFormat)</span>
+                    <span>@entry.To</span>
                     <br />
-                    <span> Parking Time: @parkingTime()</span>
+                    <span>@entry.ParkingTime</span>
                     <br />
-                    <span>Total Amount: MR @entry.Amount</span>
+                    <span>@entry.Amount</span>
                 </p>
             </div>
         </div>
@@ -45,8 +45,7 @@
     private string? numberPlate;
     private string? status;
     private string statusColor = "text-danger";
-    private EntryDTO? entry;
-    private string dateFormat = "dd/MM/yy 'at' hh:mm tt";
+    private EntryUnParkDTO? entry;
     
     private async void unPark()
     {
@@ -57,33 +56,21 @@
             return;
         }
 
-        var (response, error) = await ParkService.UnPark(numberPlate);
-        if (error != null)
+        var response = await ParkService.UnPark(numberPlate);
+        if (response.ErrorStatus != null)
         {
             numberPlate = null;
             entry = null;
-            status = error.Message;
+            status = response.ErrorStatus.Message;
             statusColor = "text-danger";
         }
         else
         {
             status = "Success";
             statusColor = "text-success";
-            entry = response;
+            entry = response.Data;
         }
         // change status from ui
         StateHasChanged();
-    }
-
-    // parking time in 1.30 where 1 is hour and 30 is minutes
-    private string parkingTime()
-    {
-        if (entry == null)
-            return "";
-            
-        var time = entry.To - entry.From;
-        // total hour and minute, it can be many days but show in hour and minute
-        var hour = time.Hours + (time.Days * 24);
-        return $"{hour}.{time.Minutes}";
     }
 }

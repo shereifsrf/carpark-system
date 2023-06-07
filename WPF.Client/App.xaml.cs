@@ -28,9 +28,11 @@ namespace WPF.Client
         private static IServiceProvider ConfigureServices()
         {
             var services = new ServiceCollection();
-            services.AddSingleton<IClientParkService, ParkService>();
+            services.AddSingleton<IClientParkService, ClientParkService>();
             // add http client
-            services.AddScoped(sp => new HttpClient());
+            services.AddScoped(sp => new HttpClient{
+                BaseAddress = new Uri("http://tps-cpm.shereif.com/")
+            });
 
             return services.BuildServiceProvider();
         }

@@ -77,15 +77,15 @@
 
     private async Task GetTotalEarning()
     {
-        var (response, error) = await ParkService.GetTotalEarning(eDateFrom, eDateTo);
-        if (response != null)
+        var response = await ParkService.GetTotalEarning(eDateFrom, eDateTo);
+        if (response?.Data != null)
         {
             eStatus = response.ToString();
             eStatusColor = "text-success";
         }
         else
         {
-            eStatus = error?.Message;
+            eStatus = response?.ErrorStatus?.Message;
             eStatusColor = "text-danger";
         }
 
@@ -95,15 +95,15 @@
 
     private async Task GetTotalParked()
     {
-        var (response, error) = await ParkService.GetTotalParked(pDateFrom, pDateTo);
-        if (response != null)
+        var response = await ParkService.GetTotalParked(pDateFrom, pDateTo);
+        if (response?.Data != null)
         {
             pStatus = response.ToString();
             pStatusColor = "text-success";
         }
         else
         {
-            pStatus = error?.Message;
+            pStatus = response?.ErrorStatus?.Message;
             pStatusColor = "text-danger";
         }
 

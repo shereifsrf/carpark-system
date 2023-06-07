@@ -8,6 +8,12 @@
         <Setter Property="Margin" Value="10" />
         <Setter Property="Padding" Value="10" />
     </Style>
+
+    <!-- Border style with brush and thickness -->
+    <Style x:Key="BorderStyle" TargetType="Border">
+        <Setter Property="BorderBrush" Value="Black" />
+        <Setter Property="BorderThickness" Value="1" />
+    </Style>
          
     </Application.Resources>
 </Application>

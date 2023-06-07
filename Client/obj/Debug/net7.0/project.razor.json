@@ -285,43 +285,6 @@
         }
       },
       {
-        "HashCode": 436396082,
-        "Kind": "Components.Component",
-        "Name": "CPM.Client.Pages.Park",
-        "AssemblyName": "CPM.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Park"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CPM.Client.Pages.Park",
-          "Common.TypeNameIdentifier": "Park",
-          "Common.TypeNamespace": "CPM.Client.Pages",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
-        "HashCode": 259978013,
-        "Kind": "Components.Component",
-        "Name": "CPM.Client.Pages.Park",
-        "AssemblyName": "CPM.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CPM.Client.Pages.Park"
-          }
-        ],
-        "Metadata": {
-          "Common.TypeName": "CPM.Client.Pages.Park",
-          "Common.TypeNameIdentifier": "Park",
-          "Common.TypeNamespace": "CPM.Client.Pages",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
-          "Runtime.Name": "Components.IComponent"
-        }
-      },
-      {
         "HashCode": -971200493,
         "Kind": "Components.Component",
         "Name": "CPM.Client.Pages.UnPark",
@@ -353,6 +316,43 @@
         "Metadata": {
           "Common.TypeName": "CPM.Client.Pages.UnPark",
           "Common.TypeNameIdentifier": "UnPark",
+          "Common.TypeNamespace": "CPM.Client.Pages",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 436396082,
+        "Kind": "Components.Component",
+        "Name": "CPM.Client.Pages.Park",
+        "AssemblyName": "CPM.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Park"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CPM.Client.Pages.Park",
+          "Common.TypeNameIdentifier": "Park",
+          "Common.TypeNamespace": "CPM.Client.Pages",
+          "Runtime.Name": "Components.IComponent"
+        }
+      },
+      {
+        "HashCode": 259978013,
+        "Kind": "Components.Component",
+        "Name": "CPM.Client.Pages.Park",
+        "AssemblyName": "CPM.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CPM.Client.Pages.Park"
+          }
+        ],
+        "Metadata": {
+          "Common.TypeName": "CPM.Client.Pages.Park",
+          "Common.TypeNameIdentifier": "Park",
           "Common.TypeNamespace": "CPM.Client.Pages",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch",
           "Runtime.Name": "Components.IComponent"
