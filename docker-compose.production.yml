@@ -12,7 +12,6 @@ services:
     depends_on:
       - cpm-postgres
     networks:
-      - web-api
       - cpm-backend
 
   cpm-postgres:
@@ -35,7 +34,5 @@ volumes:
 
 
 networks:
-  web-api:
-    external: true
   cpm-backend:
     name: cpm-backend

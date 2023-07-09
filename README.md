@@ -1,6 +1,7 @@
 ## Usages
 - Install docker from [here](https://docs.docker.com/engine/install/)
-#### make sure directory is CPM then run below command
+- Rename .env.example to .env
+- make sure directory is CPM then run below command
 
 ````
 $ make run
